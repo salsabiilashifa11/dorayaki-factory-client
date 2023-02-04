@@ -1,0 +1,168 @@
+body {
+  font-family: 'Inter', sans-serif !important;  
+  color: #474A57 !important;
+  --base-bg-color: #A3D7EF;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 700 !important;
+  margin-bottom: 0 !important;
+}
+
+.text-bold {
+  font-weight: 700 !important;
+}
+
+a {
+  color: #474A57 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #000000 !important;
+}
+
+@media (max-width: 576px) {
+  a {
+    font-size: 0.75rem;
+  }
+}
+
+.logout-button {
+  border: none !important;
+  border-radius: 0.75rem !important;
+}
+
+/* Login page */
+.login-form {
+  text-align: left;
+  padding: 3rem;
+  max-width: 40rem;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border-radius: 0.75rem !important;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-control {
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #ced4da !important;
+}
+
+.form-control:focus {
+  border-radius: 0.25rem !important;
+}
+
+.login-button {
+  margin: auto;
+  border: none !important;
+  border-radius: 0.75rem !important;
+}
+
+.login-button:focus {
+  border-radius: 0.75rem !important;
+}
+
+/* Resep page */
+.centered {
+  text-align: center;
+}
+
+.overflow {
+  white-space: nowrap; 
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.resep-button {
+  text-align: end;
+}
+
+.resep-button-font {
+  background-color: var(--base-bg-color) !important;
+  color: var(--base-color) !important;
+  font-weight: 700 !important;
+  border: none !important;
+  border-radius: 0.75rem !important;
+}
+
+@media (max-width: 576px) {
+  .resep-judul {
+    font-size: 1rem;
+    margin-top: 0.25rem;
+  }
+
+  .resep-button-font {
+    font-size: 0.75rem !important;
+  }
+}
+
+.resep-card {
+  border-radius: 0.75rem !important;
+  box-shadow: 3px 3px 2px rgba(85, 85, 85, 0.5);
+  margin-bottom: 1rem;
+}
+
+.resep-accordion {
+  border: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--bs-body-color) !important;
+  background-color: transparent !important;
+  white-space: normal !important; 
+}
+
+.accordion-button:not(.collapsed) .overflow {
+  white-space: normal; 
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+ul {
+  margin-bottom: 0 !important;
+}
+
+/* resep-add page */
+@media (max-width: 576px) {
+  .col-sm-2 {
+    width: 25% !important;
+  }
+}
+
+/* request page */
+.font-small {
+  font-size: 0.75rem !important;
+}
+
+.pl-1 {
+  padding-left: 0.375rem !important;
+}
+
+.pr-1 {
+  padding-right: 0.375rem !important;
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: "";
+}

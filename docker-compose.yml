@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  factory:
+    build: .
+    volumes:
+      - '.:/src/App'
+      - '/node_modules'
+    ports:
+      - 8000:8000
